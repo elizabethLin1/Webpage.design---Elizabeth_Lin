@@ -20,6 +20,13 @@ h1 {
 .name{float: right;}
 #nextp{clear: right;}
 
+h1{background-color: blue;
+}
+p{
+	background-color: white;
+	color: black;
+}
+
 body { 
 	background-color: skyblue;
 	color: black;
@@ -27,5 +34,8 @@ body {
 	font-size: 87.5%;}
 
 }
+
+
+
 
 
