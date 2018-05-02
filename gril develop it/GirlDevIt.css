@@ -1,0 +1,48 @@
+/*
+* Elizabeth Lin
+* May 2, 2018
+* Girl develop it
+*/
+
+header{
+	background-color: #E55461;
+	text-align: center;}
+	
+/* change the font of the text, make a line under text  */
+h2, h3{
+	font-family: "URW Chancery L", cursive;
+	text-decoration: underline;
+}
+	
+/* set the background color  */
+body{
+	background-color: pink;	
+}
+
+/*use type selector in order to make the entire part are arial*/
+main{
+	font-family: Arial;}
+
+/*use class selector, change the font; make the paragraph in footer are different front from part*/
+.PH{font-family: Times New Roman;
+}
+
+/* set links color  */
+a:link{
+	color: #8A2BE2;}
+
+/* use hover and focus to change the appearance of the links when users place their mouse on it or tabbing. */
+/* font-size change the size when users click or over it  */
+a:hover, a:focus{
+	font-size: 150%;
+	color: #FF00FF;}
+
+/* use class selector to place the image in right place*/
+.name{
+    float:right;
+    height:183px;
+    width:275px;
+}
+#nextp{clear: right;}
+
+
