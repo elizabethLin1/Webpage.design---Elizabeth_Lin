@@ -1,0 +1,40 @@
+/*
+* Elizabeth Lin
+* May 7, 2018
+* box model
+*/
+
+* {                   /* reset margin/padding to 0 for all elements */
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+
+	height, width: auto;
+	border: 3px dotted black;
+	padding: 5px 10px 2px 10px;
+	margin: .5em 1em 2em 1em;
+}
+main{
+
+	height, width: auto;
+	border: 3px solid black;
+	padding: 5px 10px 2px 10px;
+	margin: 1em 1em 1em 1em;
+}
+
+h1{
+
+	height, width: auto;
+	border: 2px dotted black;
+	padding: 5px 10px 2px 10px;
+	margin: .5em .5em .5em .5em;
+}
+
+p{
+	height, width: auto;
+	border: 2px dotted black;
+	padding: 5px 10px 2px 10px;
+	margin: .5em .5em .5em .5em;
+}
