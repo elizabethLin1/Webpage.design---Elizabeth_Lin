@@ -1,0 +1,91 @@
+/*
+Elizabeth Lin
+May 15, 2018
+Endangered species
+*/
+
+/* reset margin/padding to 0 for all elements */
+* {                   
+    margin: 0;
+    padding: 0; 
+}
+
+/*the order are all depends on the order in html*/
+
+/*set the bgcolor, and size of the page */
+body{
+	background-color: #FF9966;
+	height: auto;
+	width:90%;
+	margin:2em 3em;
+}
+
+main{
+	border-top: 3px solid #FFCCCC;
+	border-bottom: 3px solid #FFCCCC;
+	margin:.5em;
+}
+
+h1{
+	font-family:"URW Chancery L";
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline overline;
+	color: navy;
+}
+
+h2, h3{
+	color: green;
+	font-family: "URW Chancery L", cursive;
+	text-decoration: underline;
+	margin:.5em;
+}
+
+/*image set,(float and stop) */
+/*adding padding, margin to make each element have space with others */
+/* border sets the line make the page more renderable, divided the header, main, and footer */
+.ferret{
+	float:left;
+	height:200px;
+	width:300px;
+	border:1px dashed black;
+	padding:.5em;
+	margin: .5em;
+}
+/*stop float use clear */
+#stop{
+	clear:left;
+}
+
+/*class selector */
+.name{
+    height:183px;
+    width:275px;
+    padding:.5em;
+    margin:.5em;
+    border:2px solid black;
+}
+
+/*image set */
+/*id selector */
+#pit{
+	float:right;
+	height:120px; 
+	width:200px;
+	padding:.5em;
+	border:1px dashed black;
+    margin-bottom:2em;
+}
+#clear{
+	clear:right;
+}
+/*add space before the text, more readable */
+footer{
+	margin-left:10px;
+}
+/*changed the end part's color */
+#end{
+	float: right;
+	color: red;
+}
+
