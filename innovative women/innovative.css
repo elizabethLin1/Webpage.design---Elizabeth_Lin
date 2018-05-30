@@ -1,0 +1,117 @@
+/* Name:Elizabeth Lin
+*  Date: May 30, 2018
+* InnOvative Women  */
+
+/* reset margin/padding to 0 for all elements */
+/*universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+/*the order are all depends on the order in html*/
+
+/*width 95% in order that not too full the page */
+/*border: width style color */
+/*type selector*/
+body {
+    width:95%;
+    margin: 15px auto;
+    border: 1px solid black;
+    background-color:#F4F4F4;
+}
+
+/*text-align to make the text in the center */
+/*padding make space between content and border*/
+h1 {
+    padding: 10px;
+    text-align: center;
+    color:#373737;
+}
+/*change the color of h2 */
+h2, h3{
+	color:#373737}
+/*when the mouse over or focus the link(content), the content will become bigger and change the color */
+a:hover, a:focus{
+	font-size: 150%;
+	color: #FF00FF;}
+
+/*add border color */
+header {
+    border-bottom: 2px solid #ef9c00;
+}
+
+/*ID selector */
+/*because the total width is 95%,the sidebar should only be part of the total  */
+/*float makes it become the left column */
+#sidebarA {
+    width:20% ;
+    height: auto;
+    float: left;
+    padding:3px;
+}
+/*add margin for the Paragraph */
+#sidebarA p{
+	margin: 5px;}
+	
+/*the left side picture formatting */
+#AsideP{
+	height: 300px;
+	width:200px;
+	padding: 3px;
+	border: 1px solid black;
+	margin: 5px 30px;
+}
+
+
+/*the middle mart, the most important part so it takes most width */
+/*float still left */
+main {
+    width: 55%;
+    height:auto;
+    float: left;
+    border-right: 2px solid #ef9c00;
+    border-left: 2px solid #ef9c00;
+    padding: 10px 10px;
+    background-color:#DCD0C0;
+}
+
+/*make the picture float around the content */
+/*add border around the picture */
+#mainP{
+	float:right;
+	width:300px;
+	height:400px;
+	padding:3px;
+	border: 1px solid black;
+	margin:2px;
+}
+
+/*stop float the picture in the min part */
+#clearMP{
+	clear:right;
+}
+
+
+/*float right makes it right column */
+#sidebarB {
+    width: 20%;
+    height: auto;
+    float: right;
+    padding:10px;
+	margin:3px;
+}
+
+
+/*clear both in order to stop float the column part */
+footer {
+    clear: both;
+    border-top: 2px solid #ef9c00;
+    padding:15px 30px;
+}
+
+/*makt the content float to the right side */
+/*change color of it */
+#end{
+	float: right;
+	color: red;
+}
